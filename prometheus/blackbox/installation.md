@@ -30,8 +30,8 @@ WantedBy=multi-user.target
 ```
 ## Start service 
 ```
-systemctl enable --now prometheus.service
-systemctl status prometheus.service
+systemctl enable --now blackbox.service
+systemctl status blackbox.service
 ```
 ### Show Ip of server
 ```
